@@ -1,2 +1,0 @@
-# sphinx-test
- Sphinx test
