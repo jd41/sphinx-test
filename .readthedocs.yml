@@ -5,9 +5,9 @@ python:
   install:
     - method: pip
       path: .
-    - requirements: ./requirements.txt
+    - requirements: docs/requirements.txt
 
 sphinx:
-  configuration: ./conf.py
+  configuration: docs/conf.py
   
 formats: []
