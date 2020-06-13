@@ -3,29 +3,31 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Start gltest_file.rst:
+.. include:: gltest_glossary_include.rst
 
-This is a glossary test
+test abbr+replace+include+rawhtml+link: |replace_abbr_include_rawhtml_link|
 
-.. This is a substitution.
+test abbr+replace+include: |replace_abbr_include|
 
-test abbr+subst+include+rawhtml+link: |subst_abbr_include_rawhtml_link|
+Test hoverxref+include: :hoverxref:`text_hoverxref<replace_hovexref>`
 
-test abbr+substitution+include: |subst_abbr_include|
+Test hoverxref+include+replace: test hoverxref: |replace_hoverxref|
 
-test abbr substitution: |substabbr|
+   These new roles are alias of the ``ref`` role and works in the same.
+   See :ref:`gltest_glossary:replace_hoverxref` for more detailed information about this and other examples.
 
-Test hoverxrefs: :hoverxref:`substhoverxref <gltest_glossary:substhoverxref>`
+===================
+ replace_hovexref
+===================
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
 
-:abbr:`substabbr (hint)`
 
-:abbr: `substabbr (hint)`
-
-test hoverxref: |substhoverxref|
+=======
+ usage
+=======
 
 End gltest_file.rst
 
-.. include:: gltest_glossary.rst
 
 Welcome to sphinx-playground's documentation!
 =============================================
@@ -33,6 +35,9 @@ Welcome to sphinx-playground's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   
+   README
+   gltest_glossary
 
 
 

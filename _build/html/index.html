@@ -4,7 +4,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>hoverxref_sectio &#8212; sphinx-playground  documentation</title>
+    <title>replace_hovexref &#8212; sphinx-playground  documentation</title>
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/css/tooltipster.custom.css" />
@@ -26,6 +26,7 @@
     <script src="_static/js/micromodal.min.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Caveats:" href="README.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -42,48 +43,32 @@
 
           <div class="body" role="main">
             
-  <p>Start gltest_file.rst:</p>
-<p>This is a glossary test</p>
-<p>test abbr+subst+include+rawhtml+link: <abbr title="subst+abbr+include+rawhtml+link works"><a href="gltest_glossary.html#subst-abbr-include-rawhtml-link">subst_abbr_include_rawhtml_link</a></abbr></p>
-<p>test abbr+substitution+include: <abbr title="substitution+abbr+include works">subst_abbr_include_text</abbr></p>
-<p>test abbr substitution: <abbr title="substitution+abbr works">substabbr</abbr></p>
-<p>Test hoverxrefs: <span class="xref std std-hoverxref">substhoverxref</span></p>
-<p><abbr title="hint">substabbr</abbr></p>
-<dl class="field-list simple">
-<dt class="field-odd">abbr</dt>
-<dd class="field-odd"><p><cite>substabbr (hint)</cite></p>
-</dd>
-</dl>
-<p>test hoverxref: <span class="xref std std-hoverxref">substhoverxref</span></p>
-<p>End gltest_file.rst</p>
-<p>Hi from gltest_glossary.rst!</p>
-<div class="section" id="hoverxref-sectio">
-<h1>hoverxref_sectio<a class="headerlink" href="#hoverxref-sectio" title="Permalink to this headline">¶</a></h1>
-<p>Hello, this is the definition of substhoverxref
-text substitution: <a href="#id1"><span class="problematic" id="id2">|substtext|</span></a></p>
-<p>test abbr+substitution: <abbr title="substitution+abbr works">substabbr</abbr></p>
-<p><abbr title="hint">substabbr</abbr></p>
-<dl class="field-list simple">
-<dt class="field-odd">abbrwithspace</dt>
-<dd class="field-odd"><p><cite>substabbr (hint)</cite></p>
-</dd>
-</dl>
-<p>text hoverxref no substitution: <span class="xref std std-hoverxref">substhoverxref</span>
-test hoverxref: <span class="xref std std-hoverxref">substhoverxref</span></p>
-<p>end gltest_glossary.rst</p>
+  <p>test abbr+replace+include+rawhtml+link: <abbr title="replace+abbr+include+rawhtml+link works">
+<a href="gltest_glossary.html#replace-abbr-include-rawhtml-link">replace_abbr_include_rawhtml_link
+</a></abbr></p>
+<p>test abbr+replace+include: <abbr title="replaceitution+abbr+include works">replace_abbr_include_text</abbr></p>
+<p>Test hoverxref+include: <a class="reference internal" href="#replace-hovexref"><span class="std std-ref">text_hoverxref</span></a></p>
+<p>Test hoverxref+include+replace: test hoverxref: <span class="xref std std-hoverxref">replace_hoverxref</span></p>
+<blockquote>
+<div><p>These new roles are alias of the <code class="docutils literal notranslate"><span class="pre">ref</span></code> role and works in the same.
+See <span class="xref std std-ref">gltest_glossary:replace_hoverxref</span> for more detailed information about this and other examples.</p>
+</div></blockquote>
+<div class="section" id="replace-hovexref">
+<h1>replace_hovexref<a class="headerlink" href="#replace-hovexref" title="Permalink to this headline">¶</a></h1>
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 </div>
-<div class="section" id="subst-abbr-include-rawhtml-link">
-<h1>subst_abbr_include_rawhtml_link<a class="headerlink" href="#subst-abbr-include-rawhtml-link" title="Permalink to this headline">¶</a></h1>
-<p>Hello, this is the description  of subst_abbr_include_rawhtml_link!</p>
-</div>
-<div class="section" id="hoverxref-section">
-<h1>hoverxref_section<a class="headerlink" href="#hoverxref-section" title="Permalink to this headline">¶</a></h1>
-<p>Hello, this is the definition of substhoverxref</p>
+<div class="section" id="usage">
+<h1>usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h1>
+<p>End gltest_file.rst</p>
 <div class="section" id="welcome-to-sphinx-playground-s-documentation">
 <h2>Welcome to sphinx-playground’s documentation!<a class="headerlink" href="#welcome-to-sphinx-playground-s-documentation" title="Permalink to this headline">¶</a></h2>
 <div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="README.html">Caveats:</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gltest_glossary.html">subst_abbr_include_rawhtml_link</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gltest_glossary.html#replace-hoverxref">replace_hoverxref</a></li>
+</ul>
 </div>
 </div>
 <div class="section" id="indices-and-tables">
@@ -113,11 +98,18 @@ test hoverxref: <span class="xref std std-hoverxref">substhoverxref</span></p>
 
 
 <h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="README.html">Caveats:</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gltest_glossary.html">subst_abbr_include_rawhtml_link</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gltest_glossary.html#replace-hoverxref">replace_hoverxref</a></li>
+</ul>
 
 <div class="relations">
 <h3>Related Topics</h3>
 <ul>
   <li><a href="#">Documentation overview</a><ul>
+      <li>Next: <a href="README.html" title="next chapter">Caveats:</a></li>
   </ul></li>
 </ul>
 </div>
