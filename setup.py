@@ -6,11 +6,11 @@ with open('README.rst', 'r') as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='sphinx-hoverxref',
+    name='sphinx-test',
     version=hoverxref.version,
-    author='Manuel Kaufmann',
-    author_email='humitos@gmail.com',
-    description='Sphinx extension to embed content in a tooltip on xref hover',
+    author='jd41',
+    author_email='',
+    description='Sphinx glossary test',
     url='https://github.com/readthedocs/sphinx-hoverxref',
     license='MIT',
     packages=setuptools.find_packages(),
@@ -19,7 +19,6 @@ setuptools.setup(
     include_package_data=True,
     zip_safe=False,
     classifiers=[
-        'Development Status :: 4 - Beta',
         'Framework :: Sphinx',
         'Framework :: Sphinx :: Extension',
         'License :: OSI Approved :: MIT License',
