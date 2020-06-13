@@ -21,6 +21,7 @@ project = 'sphinx-playground'
 copyright = '2020, j'
 author = 'j'
 
+master_doc = 'index'
 
 # -- General configuration ---------------------------------------------------
 
