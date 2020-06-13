@@ -11,7 +11,6 @@ setuptools.setup(
     author='jd41',
     author_email='',
     description='Sphinx glossary test',
-    url='https://github.com/readthedocs/sphinx-hoverxref',
     license='MIT',
     packages=setuptools.find_packages(),
     long_description=long_description,
