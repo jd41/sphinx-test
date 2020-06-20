@@ -13,8 +13,9 @@ Test hoverxref+include: :hoverxref:`text_hoverxref<replace_hovexref>`
 
 Test hoverxref+include+replace: test hoverxref: |replace_hoverxref|
 
-   These new roles are alias of the ``ref`` role and works in the same.
-   See :ref:`gltest_glossary:replace_hoverxref` for more detailed information about this and other examples.
+See :hoverxref:`gltest_glossary:replace_hoverxref` for more detailed information about this and other examples.
+
+Test reference to something unresolved: |thisdoesntexist|
 
 ===================
  replace_hovexref
@@ -36,9 +37,6 @@ Welcome to sphinx-playground's documentation!
    :maxdepth: 2
    :caption: Contents:
    
-   README
-   gltest_glossary
-
 
 
 Indices and tables

@@ -36,9 +36,6 @@ Welcome to sphinx-playground's documentation!
    :maxdepth: 2
    :caption: Contents:
    
-   README
-   gltest_glossary
-
 
 
 Indices and tables
