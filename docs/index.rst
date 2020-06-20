@@ -9,26 +9,13 @@ test abbr+replace+include+rawhtml+link: |replace_abbr_include_rawhtml_link|
 
 test abbr+replace+include: |replace_abbr_include|
 
-Test hoverxref+include: :hoverxref:`text_hoverxref<replace_hovexref>`
+Test hoverxref+include: :hoverxref:`text_hoverxref<gltest_glossary:replace_hoverxref>`
 
-Test hoverxref+include+replace: test hoverxref: |replace_hoverxref|
-
-See :hoverxref:`gltest_glossary:replace_hoverxref` for more detailed information about this and other examples.
+Test hoverxref+include+replace: |replace_hoverxref|
 
 Test reference to something unresolved: |thisdoesntexist|
 
-===================
- replace_hovexref
-===================
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.   
-
-
-=======
- usage
-=======
-
 End gltest_file.rst
-
 
 Welcome to sphinx-playground's documentation!
 =============================================
